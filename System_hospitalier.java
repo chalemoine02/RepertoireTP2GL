@@ -30,15 +30,17 @@ public class System_hospitalier {
 		String analyse =  analyserRequete(requete);
 		String comparaisonDonnees = comparerDonnes();
 		System.out.println(analyse);
-		System.out.println(comparaisonDonnees);
+ 		System.out.println(comparaisonDonnees);
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		//Prend un object de la classe "Requête" et retourne la phrase "requête analysée"
+		//Analyser la requête
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
+		// Compare les données et retourne la phrase "Cluster trouvé"
 		// Comparaison des données
 		return "Cluster trouvé";
 	}
